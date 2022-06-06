@@ -1,0 +1,416 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <title>responsive hospital website :)</title>
+  <!-- stylesheet link tag -->
+  <link rel="stylesheet" href="./style.css">
+  <!-- bootsrap link tag -->
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-0evHe/X+R7YkIZDRvuzKMRqM+OrBnVFBL6DOitfPri4tjfHxaWutUpFmBp4vmVor" crossorigin="anonymous">
+</head>
+<body>
+
+  <!-- navbar -->
+  <div class="navbar navbar-expand-lg" style="background: #fff;">
+    <div class="container py-1">
+      <a class="navbar-brand fs-3" href="#" style="color: #616161;">
+        <span class="iconify" data-icon="bi:heart-pulse-fill" style="color: #16a085;" data-width="25" data-height="25"></span>
+        Medcare.
+      </a>
+      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbar">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+
+      <div class="collapse navbar-collapse" id="navbar">
+          <ul class="navbar-nav ms-auto ps-3 ps-lg-0">
+            <li class="nav-item">
+              <a class="nav-link active" href="#">Home</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link active" href="#services">Services</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link active" href="#aboutus">About</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link active" href="#doctors">Doctors</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link active" href="#book">Book</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link active" href="#review">Review</a>
+            </li>
+          </ul>
+      </div>
+    </div>
+  </div>
+
+
+  <!-- showcase -->
+  <section id="showcase" class="pt-5">
+    <div class="container-fluid">
+      <div class="row">
+        <div class="col-lg-6">
+          <img class="img-fluid pt-3 pt-lg-0" src="./images/home-img.svg" alt="home-svg" />
+        </div>
+        <div class="col-lg-6 d-flex flex-column justify-content-center ps-4 ps-lg-0">
+          <h1 class="showcase_title">Stay Safe, Stay Healthy</h1>
+          <p class="pt-3 fs-5 text-break">Lorem Ipsum Dolor Sit Amet Consectetur Adipisicing Elit. Rem Sed Autem Vero? Magnam, Est Laboriosam!</p>
+          <button class="my-3 showcase_contactus">
+            Contact Us
+            <span class="iconify showcase_contactus__arrowicon" data-icon="akar-icons:circle-chevron-right-fill" data-width="25" data-height="25"></span>
+          </button>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- info -->
+  <section id="info" class="py-4" style="background: white;">
+    <div class="container">
+      <div class="row">
+        <div class="col-md-6 col-lg-3 pt-3">
+          <div class="info_card">
+            <span class="iconify" data-icon="fa6-solid:user-doctor" style="color: #16a085;" data-width="45" data-height="45"></span>
+            <h1 class="info_card__title pt-2 ps-3">140+</h1>
+            <p class="info_card__description">Doctors At Work</p>
+          </div>
+        </div>
+
+        <div class="col-md-6 col-lg-3 pt-3">
+          <div class="info_card">
+            <span class="iconify" data-icon="fa6-solid:users" style="color: #16a085;" data-width="45" data-height="45"></span>
+            <h1 class="info_card__title pt-2 ps-3">1040+</h1>
+            <p class="info_card__description">Satisfied Patients</p>
+          </div>
+        </div>
+
+        <div class="col-md-6 col-lg-3 pt-3">
+          <div class="info_card">
+            <span class="iconify" data-icon="fa6-solid:bed-pulse" style="color: #16a085;" data-width="45" data-height="45"></span>
+            <h1 class="info_card__title pt-2 ps-3">500+</h1>
+            <p class="info_card__description">Bed Facility</p>
+          </div>
+        </div>
+
+        <div class="col-md-6 col-lg-3 pt-3">
+          <div class="info_card">
+            <span class="iconify" data-icon="fa-solid:hospital" style="color: #16a085;" data-width="45" data-height="45"></span>
+            <h1 class="info_card__title pt-2 ps-3">80+</h1>
+            <p class="info_card__description">Available Hospitals</p>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+
+  <!-- services -->
+  <section id="services" class="py-4">
+    <div class="container">
+      <div class="row text-center">
+        <h1 class="services_title">OUR <span>SERVICES</span></h1>
+      </div>
+      <div class="row">
+          <div class="col-lg-3 mt-3">
+            <div class="services_card">
+              <span class="iconify" data-icon="fa-solid:notes-medical" style="color: #16a085;" data-width="45" data-height="45"></span>
+              <h1 class="services_card__title pt-2">Free Checkups</h1>
+              <p class="services_card__description text-break">Lorem Ipsum Dolor Sit Amet Consectetur, Adipisicing Elit. Ad, Omnis.</p>
+              <button class="services_card__learnmore">
+                Learn More
+                <span class="iconify services_card__arrowicon" data-icon="akar-icons:circle-chevron-right-fill" data-width="25" data-height="25"></span>
+              </button>
+            </div>
+          </div>
+
+          <div class="col-lg-3 mt-3">
+            <div class="services_card">
+              <span class="iconify" data-icon="bxs:ambulance" style="color: #16a085;" data-width="45" data-height="45"></span>
+              <h1 class="services_card__title pt-2">24/7 Ambulance</h1>
+              <p class="services_card__description text-break">Lorem Ipsum Dolor Sit Amet Consectetur, Adipisicing Elit. Ad, Omnis.</p>
+              <button class="services_card__learnmore">
+                Learn More
+                <span class="iconify services_card__arrowicon" data-icon="akar-icons:circle-chevron-right-fill" data-width="25" data-height="25"></span>
+              </button>
+            </div>
+          </div>
+
+          <div class="col-lg-3 mt-3">
+            <div class="services_card">
+              <span class="iconify" data-icon="fa6-solid:user-doctor" style="color: #16a085;" data-width="45" data-height="45"></span>
+              <h1 class="services_card__title pt-2">Expert Doctors</h1>
+              <p class="services_card__description text-break">Lorem Ipsum Dolor Sit Amet Consectetur, Adipisicing Elit. Ad, Omnis.</p>
+              <button class="services_card__learnmore">
+                Learn More
+                <span class="iconify services_card__arrowicon" data-icon="akar-icons:circle-chevron-right-fill" data-width="25" data-height="25"></span>
+              </button>
+            </div>
+          </div>
+
+          <div class="col-lg-3 mt-3">
+            <div class="services_card">
+              <span class="iconify" data-icon="fa-solid:pills" style="color: #16a085;" data-width="45" data-height="45"></span>
+              <h1 class="services_card__title pt-2">Medicines</h1>
+              <p class="services_card__description text-break">Lorem Ipsum Dolor Sit Amet Consectetur, Adipisicing Elit. Ad, Omnis.</p>
+              <button class="services_card__learnmore">
+                Learn More
+                <span class="iconify services_card__arrowicon" data-icon="akar-icons:circle-chevron-right-fill" data-width="25" data-height="25"></span>
+              </button>
+            </div>
+          </div>
+
+          <div class="col-lg-3 mt-3">
+            <div class="services_card">
+              <span class="iconify" data-icon="fa6-solid:bed-pulse" style="color: #16a085;" data-width="45" data-height="45"></span>
+              <h1 class="services_card__title pt-2">Bed Facility</h1>
+              <p class="services_card__description text-break">Lorem Ipsum Dolor Sit Amet Consectetur, Adipisicing Elit. Ad, Omnis.</p>
+              <button class="services_card__learnmore">
+                Learn More
+                <span class="iconify services_card__arrowicon" data-icon="akar-icons:circle-chevron-right-fill" data-width="25" data-height="25"></span>
+              </button>
+            </div>
+          </div>
+
+          <div class="col-lg-3 mt-3">
+            <div class="services_card">
+              <span class="iconify" data-icon="bi:heart-pulse-fill" style="color: #16a085;" data-width="45" data-height="45"></span>
+              <h1 class="services_card__title pt-2">Total Care</h1>
+              <p class="services_card__description text-break">Lorem Ipsum Dolor Sit Amet Consectetur, Adipisicing Elit. Ad, Omnis.</p>
+              <button class="services_card__learnmore">
+                Learn More
+                <span class="iconify services_card__arrowicon" data-icon="akar-icons:circle-chevron-right-fill" data-width="25" data-height="25"></span>
+              </button>
+            </div>
+          </div>
+      </div>
+    </div>
+  </section>
+
+
+  <!-- about us -->
+  <section id="aboutus" class="py-4" style="background: white;">
+    <div class="container">
+      <div class="row text-center">
+        <h1 class="aboutus_title">ABOUT <span>US</span></h1>
+      </div>
+
+      <div class="row">
+        <div class="col-lg-6">
+          <img class="img-fluid" src="./images/about-img.svg" alt="aboutus_svg" />
+        </div>
+
+        <div class="col-lg-6 d-flex flex-column justify-content-center ps-4 ps-lg-0">
+          <h1 class="aboutus_container__title">We Take Care Of Your Healthy Life</h1>
+          <p class="pt-3 fs-5 text-break">Lorem Ipsum Dolor Sit Amet Consectetur, Adipisicing Elit. Iure Ducimus, Quod Ex Cupiditate Ullam In Assumenda Maiores Et Culpa Odit Tempora Ipsam Qui, Quisquam Quis Facere Iste Fuga, Minus Nesciunt.</p>
+          <p class="pt-3 fs-5 text-break">Lorem Ipsum Dolor, Sit Amet Consectetur Adipisicing Elit. Natus Vero Ipsam Laborum Porro Voluptates Voluptatibus A Nihil Temporibus Deserunt Vel?</p>
+          <button class="my-3 aboutus_container__learnmore">
+            Learn More
+            <span class="iconify aboutus_container__arrowicon" data-icon="akar-icons:circle-chevron-right-fill" data-width="25" data-height="25"></span>
+          </button>
+        </div>
+      </div>
+    </div>
+  </section>
+
+
+  <!-- doctors -->
+  <section id="doctors" class="py-4">
+    <div class="container">
+      <div class="row text-center">
+        <h1 class="doctors_title">OUR <span>DOCTORS</span></h1>
+      </div>
+
+      <div class="row">
+        <div class="col-lg-3 mt-3">
+          <div class="doctor_card">
+            <img class="doctor_card__avatar" src="./images/doc-1.jpg" alt="doctor" />
+            <h1 class="doctor_card__title pt-2">John Deo</h1>
+            <p class="doctor_card__description">Expert Doctor</p>
+            <div class="d-flex flex-warp gap-2">
+              <span class="iconify doctor_card__social" data-icon="entypo-social:facebook" data-width="45" data-height="45"></span>
+              <span class="iconify doctor_card__social" data-icon="fa-brands:twitter-square" data-width="45" data-height="45"></span>
+              <span class="iconify doctor_card__social" data-icon="fa-brands:instagram-square" data-width="45" data-height="45"></span>
+              <span class="iconify doctor_card__social" data-icon="akar-icons:linkedin-box-fill" data-width="45" data-height="45"></span>
+            </div>
+          </div>
+        </div>
+
+        <div class="col-lg-3 mt-3">
+          <div class="doctor_card">
+            <img class="doctor_card__avatar" src="./images/doc-2.jpg" alt="doctor" />
+            <h1 class="doctor_card__title pt-2">John Deo</h1>
+            <p class="doctor_card__description">Expert Doctor</p>
+            <div class="d-flex flex-warp gap-2">
+              <span class="iconify doctor_card__social" data-icon="entypo-social:facebook" data-width="45" data-height="45"></span>
+              <span class="iconify doctor_card__social" data-icon="fa-brands:twitter-square" data-width="45" data-height="45"></span>
+              <span class="iconify doctor_card__social" data-icon="fa-brands:instagram-square" data-width="45" data-height="45"></span>
+              <span class="iconify doctor_card__social" data-icon="akar-icons:linkedin-box-fill" data-width="45" data-height="45"></span>
+            </div>
+          </div>
+        </div>
+
+        <div class="col-lg-3 mt-3">
+          <div class="doctor_card">
+            <img class="doctor_card__avatar" src="./images/doc-3.jpg" alt="doctor" />
+            <h1 class="doctor_card__title pt-2">John Deo</h1>
+            <p class="doctor_card__description">Expert Doctor</p>
+            <div class="d-flex flex-warp gap-2">
+              <span class="iconify doctor_card__social" data-icon="entypo-social:facebook" data-width="45" data-height="45"></span>
+              <span class="iconify doctor_card__social" data-icon="fa-brands:twitter-square" data-width="45" data-height="45"></span>
+              <span class="iconify doctor_card__social" data-icon="fa-brands:instagram-square" data-width="45" data-height="45"></span>
+              <span class="iconify doctor_card__social" data-icon="akar-icons:linkedin-box-fill" data-width="45" data-height="45"></span>
+            </div>
+          </div>
+        </div>
+
+        <div class="col-lg-3 mt-3">
+          <div class="doctor_card">
+            <img class="doctor_card__avatar" src="./images/doc-4.jpg" alt="doctor" />
+            <h1 class="doctor_card__title pt-2">John Deo</h1>
+            <p class="doctor_card__description">Expert Doctor</p>
+            <div class="d-flex flex-warp gap-2">
+              <span class="iconify doctor_card__social" data-icon="entypo-social:facebook" data-width="45" data-height="45"></span>
+              <span class="iconify doctor_card__social" data-icon="fa-brands:twitter-square" data-width="45" data-height="45"></span>
+              <span class="iconify doctor_card__social" data-icon="fa-brands:instagram-square" data-width="45" data-height="45"></span>
+              <span class="iconify doctor_card__social" data-icon="akar-icons:linkedin-box-fill" data-width="45" data-height="45"></span>
+            </div>
+          </div>
+        </div>
+
+        <div class="col-lg-3 mt-3">
+          <div class="doctor_card">
+            <img class="doctor_card__avatar" src="./images/doc-5.jpg" alt="doctor" />
+            <h1 class="doctor_card__title pt-2">John Deo</h1>
+            <p class="doctor_card__description">Expert Doctor</p>
+            <div class="d-flex flex-warp gap-2">
+              <span class="iconify doctor_card__social" data-icon="entypo-social:facebook" data-width="45" data-height="45"></span>
+              <span class="iconify doctor_card__social" data-icon="fa-brands:twitter-square" data-width="45" data-height="45"></span>
+              <span class="iconify doctor_card__social" data-icon="fa-brands:instagram-square" data-width="45" data-height="45"></span>
+              <span class="iconify doctor_card__social" data-icon="akar-icons:linkedin-box-fill" data-width="45" data-height="45"></span>
+            </div>
+          </div>
+        </div>
+
+        <div class="col-lg-3 mt-3">
+          <div class="doctor_card">
+            <img class="doctor_card__avatar" src="./images/doc-6.jpg" alt="doctor" />
+            <h1 class="doctor_card__title pt-2">John Deo</h1>
+            <p class="doctor_card__description">Expert Doctor</p>
+            <div class="d-flex flex-warp gap-2">
+              <span class="iconify doctor_card__social" data-icon="entypo-social:facebook" data-width="45" data-height="45"></span>
+              <span class="iconify doctor_card__social" data-icon="fa-brands:twitter-square" data-width="45" data-height="45"></span>
+              <span class="iconify doctor_card__social" data-icon="fa-brands:instagram-square" data-width="45" data-height="45"></span>
+              <span class="iconify doctor_card__social" data-icon="akar-icons:linkedin-box-fill" data-width="45" data-height="45"></span>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- book -->
+  <section id="book" class="py-4" style="background: white;">
+    <div class="container">
+      <div class="row text-center">
+        <h1 class="book_title">BOOK <span>NOW</span></h1>
+      </div>
+
+      <div class="row">
+        <div class="col-lg-6">
+          <img src="./images/book-img.svg" alt="book_svg" />
+        </div>
+
+        <div class="col-lg-6 d-flex flex-column justify-content-center">
+          <div class="book_form d-flex flex-column align-items-center">
+            <h1 class="py-3 book_form__title">Book Appointment</h1>
+            <input type="text" class="my-3 form-control book_form__input" placeholder="your name" />
+            <input type="text" class="my-3 form-control book_form__input" placeholder="your number" />
+            <input type="text" class="my-3 form-control book_form__input" placeholder="your email" />
+            <input type="date" class="my-3 form-control book_form__input" />
+            <button class="book_form__button my-3">Book Now</button>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- review -->
+  <section id="review" class="py-4">
+    <div class="container">
+      <div class="row text-center">
+        <h1 class="review_title">CLIENT'S <span>REVIEW</span></h1>
+      </div>
+
+      <div class="row">
+        <div class="col-lg-4 pt-3">
+          <div class="review_card d-flex flex-column align-items-center">
+            <div class="review_cardinfo d-flex flex-column align-items-center">
+              <img class="review_card__avatar mt-4" src="./images/pic-1.png" alt="review_card__avatar" />
+              <h3 class="mt-2 review_card__username">John Deo</h3>
+              <div class="d-flex gap-1 pb-3">
+                <span class="iconify" data-icon="carbon:star-filled" style="color: white;" data-width="20" data-height="20"></span>
+                <span class="iconify" data-icon="carbon:star-filled" style="color: white;" data-width="20" data-height="20"></span>
+                <span class="iconify" data-icon="carbon:star-filled" style="color: white;" data-width="20" data-height="20"></span>
+                <span class="iconify" data-icon="carbon:star-filled" style="color: white;" data-width="20" data-height="20"></span>
+                <span class="iconify" data-icon="dashicons:star-half" style="color: white;" data-width="20" data-height="20"></span>
+              </div>
+            </div>
+
+            <p class="text-center py-3 px-2" style="color: #77778d;">Lorem Ipsum Dolor Sit Amet Consectetur Adipisicing Elit. Laboriosam Sapiente Nihil Aperiam? Repellat Sequi Nisi Aliquid Perspiciatis Libero Nobis Rem Numquam Nesciunt Alias Sapiente Minus Voluptatem, Reiciendis Consequuntur Optio Dolorem!</p>
+          </div>
+        </div>
+
+        <div class="col-lg-4 pt-3">
+          <div class="review_card d-flex flex-column align-items-center">
+            <div class="review_cardinfo d-flex flex-column align-items-center">
+              <img class="review_card__avatar mt-4" src="./images/pic-2.png" alt="review_card__avatar" />
+              <h3 class="mt-2 review_card__username">John Deo</h3>
+              <div class="d-flex gap-1 pb-3">
+                <span class="iconify" data-icon="carbon:star-filled" style="color: white;" data-width="20" data-height="20"></span>
+                <span class="iconify" data-icon="carbon:star-filled" style="color: white;" data-width="20" data-height="20"></span>
+                <span class="iconify" data-icon="carbon:star-filled" style="color: white;" data-width="20" data-height="20"></span>
+                <span class="iconify" data-icon="carbon:star-filled" style="color: white;" data-width="20" data-height="20"></span>
+                <span class="iconify" data-icon="dashicons:star-half" style="color: white;" data-width="20" data-height="20"></span>
+              </div>
+            </div>
+
+            <p class="text-center py-3 px-2" style="color: #77778d;">Lorem Ipsum Dolor Sit Amet Consectetur Adipisicing Elit. Laboriosam Sapiente Nihil Aperiam? Repellat Sequi Nisi Aliquid Perspiciatis Libero Nobis Rem Numquam Nesciunt Alias Sapiente Minus Voluptatem, Reiciendis Consequuntur Optio Dolorem!</p>
+          </div>
+        </div>
+
+        <div class="col-lg-4 pt-3">
+          <div class="review_card d-flex flex-column align-items-center">
+            <div class="review_cardinfo d-flex flex-column align-items-center">
+              <img class="review_card__avatar mt-4" src="./images/pic-3.png" alt="review_card__avatar" />
+              <h3 class="mt-2 review_card__username">John Deo</h3>
+              <div class="d-flex gap-1 pb-3">
+                <span class="iconify" data-icon="carbon:star-filled" style="color: white;" data-width="20" data-height="20"></span>
+                <span class="iconify" data-icon="carbon:star-filled" style="color: white;" data-width="20" data-height="20"></span>
+                <span class="iconify" data-icon="carbon:star-filled" style="color: white;" data-width="20" data-height="20"></span>
+                <span class="iconify" data-icon="carbon:star-filled" style="color: white;" data-width="20" data-height="20"></span>
+                <span class="iconify" data-icon="dashicons:star-half" style="color: white;" data-width="20" data-height="20"></span>
+              </div>
+            </div>
+
+            <p class="text-center py-3 px-2" style="color: #77778d;">Lorem Ipsum Dolor Sit Amet Consectetur Adipisicing Elit. Laboriosam Sapiente Nihil Aperiam? Repellat Sequi Nisi Aliquid Perspiciatis Libero Nobis Rem Numquam Nesciunt Alias Sapiente Minus Voluptatem, Reiciendis Consequuntur Optio Dolorem!</p>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- copyright -->
+  <div class="copyright text-center py-4">
+    Created By <span class="copyright_name">Jawad Al Qassab</span> | All Rights Reserved
+  </div>
+
+  <!-- bootstrap script tag -->
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/js/bootstrap.bundle.min.js" integrity="sha384-pprn3073KE6tl6bjs2QrFaJGz5/SUsLqktiwsUTF55Jfv3qYSDhgCecCxMW52nD2" crossorigin="anonymous"></script>
+  <!-- icons script tag -->
+  <script src="https://code.iconify.design/2/2.2.1/iconify.min.js"></script>
+</body>
+</html>
